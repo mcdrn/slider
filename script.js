@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const intervalSpeed = 3000;
     let autoSlide;
 
-    // スライドを複製して無限ループをスムーズに
+    // スライドを複製して無限ループ
     slides.forEach(slide => {
         const clone = slide.cloneNode(true);
         sliderWrapper.appendChild(clone);
